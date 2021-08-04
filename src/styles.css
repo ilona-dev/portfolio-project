@@ -1,0 +1,14 @@
+/* font-family: 'DM Mono', monospace;
+/ font-family: 'Playfair Display', serif; */
+
+h1 {
+    font-size: 96px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'DM Mono', monospace;
+}
+h1, h2 {
+    text-align: center;
+}
