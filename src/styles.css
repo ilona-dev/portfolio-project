@@ -88,7 +88,14 @@ display: none;
     }
     .hero p {
     font-size: 24px
-}}
+    }
+.about-hero {
+    text-align: center;
+}
+.contact-container{
+    text-align: center;
+}
+}
 
 .about-hero {
     margin-top: 100px;
