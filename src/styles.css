@@ -22,7 +22,7 @@ h2 {
     font-weight: bold;
 }
 i {
-    font-size: 32px;
+    font-size: 21px;
     color: var(--dark-gold-branding);
 }
 .social-links i {
@@ -76,7 +76,9 @@ background: var(--dark-gold-branding);
 text-decoration: none;
 }
 .nav-container {
-    padding: 0
+    padding: 0;
+    font-family: var(--default-font-family);
+    letter-spacing: 3px;
 }
 
 .logo {
