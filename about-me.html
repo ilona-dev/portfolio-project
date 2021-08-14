@@ -33,10 +33,39 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
-    
+    <nav class="d-flex justify-content-around container nav-container">
+      <a href="/" title="Homepage">
+        <img
+          src="/img/Ilona_codes_logo-removebg-shadow.png"
+          class="logo d-none d-md-block"
+          alt="logo-ilonacodes"
+        />
+      </a>
+      <a href="/">
+        <img
+          src="/img/small-logo.png"
+          class="logo d-block d-md-none"
+          alt="small-logo-ilonacodes"
+        />
+      </a>
+      <ul>
+        <li><a href="/" title="Home" class="menu">HOME</a></li>
+        <li>
+          <a href="/about-me.html" title="About Ilona" class="menu active"
+            >ABOUT</a
+          >
+        </li>
+        <li>
+          <a href="/my-work.html" title="Ilona´s work" class="menu">MY WORK</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Ilona" class="menu">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
     <div class="container content">
       <div class="row">
-        <div class="col-lg-6 about-paragraph">
+        <div class="col-md-6 about-paragraph">
           <h1>Hi, I am Ilona</h1>
           <h2 class="pt-3 pb-3">Front end developer from Prague</h2>
           <p>
@@ -50,7 +79,7 @@
           </p>
           <a href="/my-work.html" class="btn btn-outline">View all projects</a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <img
             src="/img/ilona-photo.jpg"
             class="img-fluid shadow-sm img-ilona"
@@ -66,9 +95,32 @@
           <p>Let´s work together and I´ll help you by all my best.</p>
         </div>
         <div class="col-md-5 text-center">
-          <a href="/contact.html" class="btn btn-hero">Let´s talk here</a>
+          <a href="/contact.html" title="Contact Ilona" class="btn btn-hero"
+            >Let´s talk here</a
+          >
         </div>
       </div>
     </div>
+    <footer>
+      <div class="mail-link text-center">
+        <a href="mailto:ilona.illishub@gmail.com" title="Mail Ilona"
+          >ilona.illishub@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.github.com/ilona-codes" title="Github profile" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/ilona-barosova"
+          title="Linkedin profile" target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </div>
+    </footer>
+    <p class="text-center foot-text">
+      This website was coded by Ilona. Check out open-sourced code on
+      <a href="https://github.com/ilona-dev/portfolio-project" target="_blank">GitHub</a>.
+    </p>
   </body>
 </html>
